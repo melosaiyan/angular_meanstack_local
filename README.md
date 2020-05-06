@@ -1,4 +1,9 @@
-# AngularMeanstackLocal
+# My Angular MEANstack Project
+
+Testing how to create an Angular project. I used MongoDB from docker for a DB.
+
+Followed tutorial here:
+https://www.positronx.io/angular-8-mean-stack-tutorial-build-crud-angular-material/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
