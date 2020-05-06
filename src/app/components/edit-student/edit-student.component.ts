@@ -106,7 +106,7 @@ export class EditStudentComponent implements OnInit {
     var id = this.actRoute.snapshot.paramMap.get('id');
     if (window.confirm('Are you sure you want to update?')) {
       this.studentApi.UpdateStudent(id, this.studentForm.value).subscribe( res => {
-        this.ngZone.run(() => this.router.navigateByUrl('/students-list'))
+        this.ngZone.run(() => this.router.navigateByUrl('/student-list'))
       });
     }
   }

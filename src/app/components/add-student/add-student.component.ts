@@ -89,7 +89,7 @@ export class AddStudentComponent implements OnInit {
   submitStudentForm() {
     if (this.studentForm.valid) {
       this.studentApi.AddStudent(this.studentForm.value).subscribe(res => {
-        this.ngZone.run(() => this.router.navigateByUrl('/students-list'))
+        this.ngZone.run(() => this.router.navigateByUrl('/student-list'))
       });
     }
   }
